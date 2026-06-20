@@ -8,14 +8,14 @@ Focus on industrial protocols, critical infrastructure sectors (energy, water, m
 Emphasis on Shodan/Censys/IVRE for device discovery, protocol-specific dorks, vendor firmware leaks, and OT-specific intelligence.
 Core Features (Mirroring HealthGuard)
 Dork-scan: Google/Bing/Brave/Mojeek dorks for SCADA configs, vendor portals, exposed HMIs, etc.
-Shodan-scan / censys-scan: Protocol-specific queries (Modbus 502, DNP3 20000, Siemens S7, etc.), country/sector filters.
+Shodan-scan/Censys-scan: Protocol-specific queries (Modbus 502, DNP3 20000, Siemens S7, etc.), country/sector filters.
 Github-intel: Search for exposed PLC code, .scd files, engineering station dumps, vendor credentials.
-Ivre-recon / leakix-scan: Network/ leak discovery for OT assets.
+Ivre-recon /Leakix-scan: Network/ leak discovery for OT assets.
 Vendor-intel: Supply chain (Siemens, Rockwell, Schneider, etc.) intel, CVE correlations.
-Protocol-recon: Fingerprinting exposed services, banner grabbing (careful!).
-Social-recon: OT personnel (engineers, integrators) exposure.
-Report: Structured reports mapped to ICS risk frameworks, with severity, remediation, and visualizations (e.g., device heatmaps).
+Protocol-Recon: Fingerprinting exposed services, banner grabbing (careful!).
+Social-Recon: OT personnel (engineers, integrators) exposure.
+Report:Structured reports mapped to ICS risk frameworks, with severity, remediation, and visualizations (e.g., device heatmaps).
 Responsible Use Built-In:
 Passive-first mode.
 Explicit authorization flags for any active probes.
-Strong warnings against unauthorized use (illegal and dangerous in critical infrastructure).
+Strong warnings against unauthorized use! Do not use this repo for illegal and dangerous in critical infrastructure.
